@@ -1,7 +1,8 @@
 {
   "recipes": {
     "elvandar/kazetenn_core_admin": [
-      "1.0.1"
+      "1.0.1",
+      "1.0.0"
     ]
   },
   "branch": "main",
