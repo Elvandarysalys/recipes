@@ -6,11 +6,14 @@
       "1.0.0"
     ]
   },
-  "branch": "main",
+  "branch": "master",
   "is_contrib": false,
   "_links": {
     "repository": "github.com/Elvandarysalys/recipes",
-    "origin_template": "{package}:{version}@github.com/Elvandarysalys/recipes:main",
-    "recipe_template": "https://api.github.com/repos/Elvandarysalys/recipes/contents/{package_dotted}.{version}.json"
+    "origin_template": "{package}:{version}@github.com/Elvandarysalys/recipes:master",
+    "recipe_template": "https://raw.githubusercontent.com/Elvandarysalys/recipes/master/{package_dotted}.{version}.json",
+    "recipe_template_relative": "{package_dotted}.{version}.json",
+    "archived_recipes_template": "https://raw.githubusercontent.com/Elvandarysalys/recipes/master/archived/{package_dotted}/{ref}.json",
+    "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
   }
 }
