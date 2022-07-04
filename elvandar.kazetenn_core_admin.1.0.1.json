@@ -23,8 +23,8 @@
             "executable": false
           }
         },
-        "aliases": [
-          "kazetenn_admin"
+        "post-install-output": [
+          "  * Kazetenn Admin is installed."
         ]
       },
       "ref": "c91b8a31e79a68df2ecf25923b7cbb4d2bf37ccf"
