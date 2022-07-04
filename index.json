@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "elvandar/kazetenn_core_admin": [
+      "1.0.1"
+    ]
+  },
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/Elvandarysalys/recipes",
+    "origin_template": "{package}:{version}@github.com/Elvandarysalys/recipes:master",
+    "recipe_template": "https://api.github.com/repos/Elvandarysalys/recipes/contents/{package_dotted}.{version}.json"
+  }
+}
