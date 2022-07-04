@@ -7,9 +7,6 @@
             "all"
           ]
         },
-        "copy-from-recipe": {
-          "config/": "%CONFIG_DIR%"
-        },
         "files": {
           "config/packages/kazetenn_admin.yaml": {
             "contents": [
@@ -30,7 +27,7 @@
           "kazetenn_admin"
         ]
       },
-      "ref": "c91b8a31e79a68df2ecf25923b7cbb4d2bf37ccf"
+      "ref": "dc0f4209e21276f84cb9bda40d2f2d422a5c866c"
     }
   }
 }
