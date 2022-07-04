@@ -1,5 +1,8 @@
 {
-  "aliases": ["kazetenn_admin", "kazetenn_core_admin"],
+  "aliases": {
+    "kazetenn_admin": "elvandar/kazetenn_core_admin",
+    "kazetenn_core_admin": "elvandar/kazetenn_core_admin"
+  },
   "recipes": {
     "elvandar/kazetenn_core_admin": [
       "1.0.1",
