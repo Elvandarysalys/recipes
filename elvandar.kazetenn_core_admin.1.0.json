@@ -3,7 +3,7 @@
     "elvandar/kazetenn_core_admin": {
       "manifest": {
         "bundles": {
-          "Kazetenn\\Admin\\KazetennAdmin::class": [
+          "Kazetenn\\Admin\\KazetennAdmin": [
             "all"
           ]
         },
