@@ -15,7 +15,11 @@
         "config/packages/kazetenn_admin.yaml": {
           "contents": [
             "kazetenn_admin:",
-            "    menu_entries:"
+            "    authorized_roles:     []",
+            "    admin_url:            admin",
+            "    translation_domain:   kazetenn_admin",
+            "    menu_entries:",
+            "    pages:"
           ],
           "executable": false
         },
@@ -27,7 +31,7 @@
           "executable": false
         }
       },
-      "ref": "c91b8a31e79a68df2ecf25923b7cbb4d2bf37ccf"
+      "ref": "a16ded03b31c76f6c7067af350e1c298e477e4fb"
     }
   }
 }
