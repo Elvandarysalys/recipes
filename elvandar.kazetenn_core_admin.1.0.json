@@ -7,25 +7,25 @@
             "all"
           ]
         },
-        "files": {
-          "config/packages/kazetenn_admin.yaml": {
-            "contents": [
-              "kazetenn_admin:",
-              "    menu_entries:"
-            ],
-            "executable": false
-          },
-          "config/routes.yaml": {
-            "contents": [
-              "kazetenn_admin:",
-              " resource: \"@KazetennAdmin/Resources/config/routes.yaml\""
-            ],
-            "executable": false
-          }
-        },
-        "aliases": [
-          "kazetenn_admin"
+        "post-install-output": [
+          "  * Kazetenn Admin is installed."
         ]
+      },
+      "files": {
+        "config/packages/kazetenn_admin.yaml": {
+          "contents": [
+            "kazetenn_admin:",
+            "    menu_entries:"
+          ],
+          "executable": false
+        },
+        "config/routes.yaml": {
+          "contents": [
+            "kazetenn_admin:",
+            " resource: \"@KazetennAdmin/Resources/config/routes.yaml\""
+          ],
+          "executable": false
+        }
       },
       "ref": "dc0f4209e21276f84cb9bda40d2f2d422a5c866c"
     }
