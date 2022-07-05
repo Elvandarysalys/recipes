@@ -26,7 +26,7 @@
           ],
           "executable": false
         },
-        "config/routes.yaml": {
+        "config/routes/kazetenn_admin.yaml": {
           "contents": [
             "kazetenn_admin:",
             " resource: \"@KazetennAdmin/Resources/config/routes.yaml\""
