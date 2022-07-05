@@ -1,0 +1,36 @@
+{
+  "manifests": {
+    "elvandar/kazetenn_articles": {
+      "manifest": {
+        "bundles": {
+          "Kazetenn\\Admin\\KazetennArticles": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "post-install-output": [
+          "  * Kazetenn Articles is installed."
+        ]
+      },
+      "files": {
+        "config/packages/kazetenn_articles.yaml": {
+          "contents": [
+            "kazetenn_articles:",
+            "    article_url: 'content'"
+          ],
+          "executable": false
+        },
+        "config/routes/kazetenn_articles.yaml": {
+          "contents": [
+            "kazetenn_articles:",
+            " resource: \"@KazetennArticles/Resources/config/routes.yaml\""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "f95440309666dec1e499a41e8a2c7d0478b1d11a"
+    }
+  }
+}
