@@ -15,26 +15,15 @@
         ]
       },
       "files": {
-        "config/packages/kazetenn_admin.yaml": {
-          "contents": [
-            "kazetenn_admin:",
-            "    authorized_roles:     []",
-            "    admin_url:            admin",
-            "    translation_domain:   kazetenn_admin",
-            "    menu_entries:",
-            "    pages:"
-          ],
-          "executable": false
-        },
         "config/routes/kazetenn_admin.yaml": {
           "contents": [
             "kazetenn_admin:",
-            " resource: \"@KazetennAdmin/Resources/config/routes.yaml\""
+            " resource: \"@KazetennAdmin/config/routes.yaml\""
           ],
           "executable": false
         }
       },
-      "ref": "99c75c99fd0a8e209741e42e094079cad0a1a931"
+      "ref": "8937ec9fb5301746bd76678023c0cd67859dbd41"
     }
   }
 }

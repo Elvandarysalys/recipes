@@ -1,9 +1,9 @@
 {
   "manifests": {
-    "elvandar/kazetenn_pages": {
+    "elvandar/kazetenn-pages": {
       "manifest": {
         "bundles": {
-          "Kazetenn\\Admin\\KazetennPages": [
+          "Kazetenn\\Pages\\KazetennPages": [
             "all"
           ]
         },
@@ -15,17 +15,10 @@
         ]
       },
       "files": {
-        "config/packages/kazetenn_pages.yaml": {
-          "contents": [
-            "kazetenn_pages:",
-            "    pages_url: ''"
-          ],
-          "executable": false
-        },
         "config/routes/kazetenn_pages.yaml": {
           "contents": [
             "kazetenn_pages:",
-            " resource: \"@KazetennPages/Resources/config/routes.yaml\""
+            " resource: \"@KazetennPages/config/routes.yaml\""
           ],
           "executable": false
         }

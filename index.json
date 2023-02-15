@@ -1,17 +1,18 @@
 {
-  "aliases": {
-    "kazetenn_admin": "elvandar/kazetenn_core_admin",
-    "kazetenn_core_admin": "elvandar/kazetenn_core_admin"
-  },
   "recipes": {
-    "elvandar/kazetenn_core_admin": [
-      "1.1",
+    "elvandar/kazetenn-admin": [
       "1.0"
     ],
-    "elvandar/kazetenn_pages": [
+    "elvandar/kazetenn-users": [
       "1.0"
     ],
-    "elvandar/kazetenn_articles": [
+    "elvandar/kazetenn-core": [
+      "1.0"
+    ],
+    "elvandar/kazetenn-pages": [
+      "1.0"
+    ],
+    "elvandar/kazetenn-articles": [
       "1.0"
     ]
   },

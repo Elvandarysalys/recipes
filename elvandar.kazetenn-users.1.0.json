@@ -1,0 +1,29 @@
+{
+  "manifests": {
+    "elvandar/kazetenn-users": {
+      "manifest": {
+        "bundles": {
+          "Kazetenn\\Users\\KazetennUsers": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "post-install-output": [
+          "  * Kazetenn Users is installed."
+        ]
+      },
+      "files": {
+        "config/routes/kazetenn_users.yaml": {
+          "contents": [
+            "kazetenn_users:",
+            " resource: \"@KazetennUsers/config/routes.yaml\""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "c6821452f6ce0a1f02b805b905d8f656d1fea034"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "manifests": {
+    "elvandar/kazetenn_core_admin": {
+      "manifest": {
+        "bundles": {
+          "Kazetenn\\Core\\KazetennCore": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "post-install-output": [
+          "  * Kazetenn Core is installed."
+        ]
+      },
+      "files": {
+        "config/routes/kazetenn_admin.yaml": {
+          "contents": [
+            "kazetenn_core:",
+            " resource: \"@KazetennCore/config/routes.yaml\""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "8937ec9fb5301746bd76678023c0cd67859dbd41"
+    }
+  }
+}

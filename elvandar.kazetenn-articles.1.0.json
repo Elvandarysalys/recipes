@@ -1,9 +1,9 @@
 {
   "manifests": {
-    "elvandar/kazetenn_articles": {
+    "elvandar/kazetenn-articles": {
       "manifest": {
         "bundles": {
-          "Kazetenn\\Admin\\KazetennArticles": [
+          "Kazetenn\\Articles\\KazetennArticles": [
             "all"
           ]
         },
@@ -15,22 +15,15 @@
         ]
       },
       "files": {
-        "config/packages/kazetenn_articles.yaml": {
-          "contents": [
-            "kazetenn_articles:",
-            "    article_url: 'content'"
-          ],
-          "executable": false
-        },
         "config/routes/kazetenn_articles.yaml": {
           "contents": [
             "kazetenn_articles:",
-            " resource: \"@KazetennArticles/Resources/config/routes.yaml\""
+            " resource: \"@KazetennArticles/config/routes.yaml\""
           ],
           "executable": false
         }
       },
-      "ref": "f95440309666dec1e499a41e8a2c7d0478b1d11a"
+      "ref": "c6821452f6ce0a1f02b805b905d8f656d1fea034"
     }
   }
 }
