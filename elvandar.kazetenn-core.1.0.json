@@ -15,7 +15,7 @@
         ]
       },
       "files": {
-        "config/routes/kazetenn_admin.yaml": {
+        "config/routes/kazetenn_core.yaml": {
           "contents": [
             "kazetenn_core:",
             " resource: \"@KazetennCore/config/routes.yaml\""
