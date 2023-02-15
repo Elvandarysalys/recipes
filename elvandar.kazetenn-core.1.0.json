@@ -1,6 +1,6 @@
 {
   "manifests": {
-    "elvandar/kazetenn_core_admin": {
+    "elvandar/kazetenn-core": {
       "manifest": {
         "bundles": {
           "Kazetenn\\Core\\KazetennCore": [
