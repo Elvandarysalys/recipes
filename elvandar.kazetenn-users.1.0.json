@@ -18,12 +18,12 @@
         "config/routes/kazetenn_users.yaml": {
           "contents": [
             "kazetenn_users:",
-            " resource: \"@KazetennUsers/config/routes.php\""
+            " resource: \"@KazetennUsers/config/routes.yaml\""
           ],
           "executable": false
         }
       },
-      "ref": "ba03b0c0f47173596ec39a6a472edffbcc8c251c"
+      "ref": "970dfd1cdc965ef407912e8b2fb24ab3e70e1c17"
     }
   }
 }

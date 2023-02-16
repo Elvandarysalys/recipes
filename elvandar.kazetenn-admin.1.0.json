@@ -18,12 +18,12 @@
         "config/routes/kazetenn_admin.yaml": {
           "contents": [
             "kazetenn_admin:",
-            " resource: \"@KazetennAdmin/config/routes.yaml\""
+            " resource: \"@KazetennAdmin/config/routes.php\""
           ],
           "executable": false
         }
       },
-      "ref": "4450fbb1116ce5a98450e9c3cfbcda138e875bf8"
+      "ref": "ddb1fbb1d4a7117a9478bb36f865f0e45cbd9e2c"
     }
   }
 }
